@@ -29,7 +29,7 @@ The results for the machine learning models including their respective balanced 
 5. Recall: Recision/Recall risk = .87/.96
 
 ### Random Oversampling
-![Pic 1]( )     
+![Pic 2]( )     
 1. Counter: Low Risk 75,036 / High Risk 2,500
 2. Logistic Regression (Random State = 1)
 3. Balanced Accuracy:0.9952011514473053
