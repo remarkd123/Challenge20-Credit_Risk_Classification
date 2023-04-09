@@ -21,7 +21,7 @@ Credit risk is an inherently unbalanced classification problem, as good loans ea
 The results for the machine learning models including their respective balanced accuracy, precision, and recall scores are as follows:      
 
 ### Naive Data
-![Pic 1]( )     
+![Pic 1](Images/Pic1.jpg)     
 1. Counter: Low Risk 75,036 / High Risk 2,500
 2. Logistic Regression (Random State = 1)
 3. Balanced Accuracy: 0.9942220387948824
@@ -29,7 +29,7 @@ The results for the machine learning models including their respective balanced 
 5. Recall: Recision/Recall risk = .87/.96
 
 ### Random Oversampling
-![Pic 2]( )     
+![Pic 2](Images/Pic2.jpg)     
 1. Counter: Low Risk 75,036 / High Risk 2,500
 2. Logistic Regression (Random State = 1)
 3. Balanced Accuracy:0.9952011514473053
