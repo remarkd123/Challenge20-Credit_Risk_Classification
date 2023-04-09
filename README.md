@@ -7,10 +7,8 @@ Supervised Machine Learning and Credit Risk
 
 ## Overview of the loan prediction risk analysis:   
 Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans. Different techniques were used to train and evaluate models with unbalanced classes. Various libraries and algorithms were used to build and evaluate models using resampling including: 
-* BalancedRandomForestClassifier (bias reduction model)
-* imbalanced-learn 
-* RandomOverSampler
-* scikit-learn
+* imbalanced-learn RandomOverSampler
+* scikit-learn Logistic Regression Model
 
 ## Purpose: 
 * Explaination on machine learning algorithm use in data analytics.
@@ -24,19 +22,19 @@ The results for the machine learning models including their respective balanced 
 
 ### Naive Data
 ![Pic 1]( )     
-1. Counter: Low Risk 51,352 / High Risk 51,352
+1. Counter: Low Risk 75,036 / High Risk 2,500
 2. Logistic Regression (Random State = 1)
-3. Balanced Accuracy: 0.6249984891886339
-4. Precision: The precision is low for High-risk loans and is high for Low-risk loans.
-5. Recall: High/Low risk = .60/.65
+3. Balanced Accuracy: 0.9942220387948824
+4. Precision: The precision is high for High-risk loans and recall is very high for Low-risk loans.
+5. Recall: Recision/Recall risk = .87/.96
 
 ### Random Oversampling
 ![Pic 1]( )     
-1. Counter: Low Risk 51,352 / High Risk 51,352
+1. Counter: Low Risk 75,036 / High Risk 2,500
 2. Logistic Regression (Random State = 1)
-3. Balanced Accuracy: 0.6249984891886339
-4. Precision: The precision is low for High-risk loans and is high for Low-risk loans.
-5. Recall: High/Low risk = .60/.65
+3. Balanced Accuracy:0.9952011514473053
+4. Precision: The precision is high for High-risk loans and recall improved to near perfect for Low-risk loans.
+5. Recall: High/Low risk = .87/1.00
 
 
 ## Summary:
